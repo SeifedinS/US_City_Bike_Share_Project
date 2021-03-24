@@ -8,11 +8,11 @@ Explore US Bike Share Data
 In this project, I used Python programming language to explore data related to bike share systems for three major cities in the United States—Chicago, New York City, and Washington. I wrote a code to import the data and answer interesting questions about it by computing descriptive statistics. Besides, I did include a script that takes in raw input to create an interactive experience in the terminal to present these statistics.
 
 ### Files used
-- chicago.csv
-- new_york_city.csv
-- washington.csv
+1. chicago.csv
+2. new_york_city.csv
+3. washington.csv
 
 ### Credits
-[link1](https://stackoverflow.com/questions/15138973/how-to-get-the-number-of-the-most-frequent-value-in-a-column)
-[link2](https://stackoverflow.com/questions/12021754/how-to-slice-a-pandas-data-frame-by-position)
-[link3](https://towardsdatascience.com/how-to-filter-rows-of-a-pandas-dataframe-by-column-value-51996ea621f8)
+- [link1](https://stackoverflow.com/questions/15138973/how-to-get-the-number-of-the-most-frequent-value-in-a-column)
+- [link2](https://stackoverflow.com/questions/12021754/how-to-slice-a-pandas-data-frame-by-position)
+- [link3](https://towardsdatascience.com/how-to-filter-rows-of-a-pandas-dataframe-by-column-value-51996ea621f8)
