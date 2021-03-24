@@ -37,7 +37,7 @@ In this project, I used data provided by [Motivate](https://www.motivateco.com/)
 - Start Station (e.g., Broadway & Barry Ave)
 - End Station (e.g., Sedgwick St & North Ave)
 - User Type (Subscriber or Customer)
-The Chicago and New York City files also have the following two columns:
+#The Chicago and New York City files also have the following two columns:
 - Gender
 - Birth Year
 
@@ -52,6 +52,5 @@ The original files are much larger and messier, and you don't need to download t
 ### Credits
 - [link1](https://www.udacity.com/)
 - [link2](https://www.motivateco.com/)
-- [link3](https://stackoverflow.com/questions/12021754/how-to-slice-a-pandas-data-frame-by-position)
-- [link4](https://towardsdatascience.com/how-to-filter-rows-of-a-pandas-dataframe-by-column-value-51996ea621f8)
-- [link5](https://wordpress.com/support/markdown-quick-reference/)
+- [link3](https://www.capitalbikeshare.com/system-data)
+- [link4](https://www.citibikenyc.com/system-data)
