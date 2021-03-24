@@ -1,6 +1,7 @@
 import time
 import pandas as pd
 import numpy as np
+from tabulate import tabulate
 
 
 CITY_DATA = { 'chicago': 'chicago.csv',
@@ -195,14 +196,13 @@ def user_stats(df):
 
 
 def display_data(df):
-    view_input = input('\nWould you like to view 5 rows of data? Enter yes or no:\n').lower()
     i = 0
-    while view_input.lower() == 'yes':
-        print(df.iloc[i:i+5])
-        i += 5
-        view_input = input('Would you like to view 5 more rows? Enter yes or no:\n').lower()
-        if view_input.lower() != 'yes':
+    while True:
+        display_data = input('\nWould you like to see 5 lines of raw data? Enter yes or no.\n')
+        if display_data.lower() != 'yes':
             break
+        print(tabulate(df.iloc[np.arange(0+i,5+i)], headers ="keys"))
+        i+=5
 
 
 def main():
