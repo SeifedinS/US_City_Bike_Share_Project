@@ -16,3 +16,4 @@ In this project, I used Python to explore data related to bike share systems for
 - [link1](https://stackoverflow.com/questions/15138973/how-to-get-the-number-of-the-most-frequent-value-in-a-column)
 - [link2](https://stackoverflow.com/questions/12021754/how-to-slice-a-pandas-data-frame-by-position)
 - [link3](https://towardsdatascience.com/how-to-filter-rows-of-a-pandas-dataframe-by-column-value-51996ea621f8)
+- [link4](https://wordpress.com/support/markdown-quick-reference/)
