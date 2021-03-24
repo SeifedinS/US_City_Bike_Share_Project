@@ -5,7 +5,7 @@ I have created this project in 18 March 2021 and added README file in 24 March 2
 Explore US Bike Share Data
 
 ### Description
-In this project, I used Python programming language to explore data related to bike share systems for three major cities in the United States—Chicago, New York City, and Washington. I wrote a code to import the data and answer interesting questions about it by computing descriptive statistics. Besides, I did include a script that takes in raw input to create an interactive experience in the terminal to present these statistics.
+In this project, I used Python to explore data related to bike share systems for three major cities in the United States—Chicago, New York City, and Washington. I wrote a code to import the data and answer interesting questions about it by computing descriptive statistics. Besides, I did include a script that takes in raw input to create an interactive experience in the terminal to present these statistics.
 
 ### Files used
 1. chicago.csv
