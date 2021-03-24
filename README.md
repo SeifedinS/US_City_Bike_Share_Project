@@ -8,9 +8,15 @@ Explore US Bike Share Data
 In this project, I used Python to explore data related to bike share systems for three major cities in the United States—Chicago, New York City, and Washington. I wrote a code to import the data and answer interesting questions about it by computing descriptive statistics. Besides, I did include a script that takes in raw input to create an interactive experience in the terminal to present these statistics.
 
 ### Files used
-1. chicago.csv
-2. new_york_city.csv
-3. washington.csv
+- chicago.csv
+- new_york_city.csv
+- washington.csv
+
+### Software requirements
+- You should have Python 3, NumPy, pandas, and tabulate installed using Anaconda
+- A text editor, like Sublime or Atom.
+- A terminal application (Terminal on Mac and Linux or Cygwin on Windows).
+
 
 ### Credits
 - [link1](https://stackoverflow.com/questions/15138973/how-to-get-the-number-of-the-most-frequent-value-in-a-column)
