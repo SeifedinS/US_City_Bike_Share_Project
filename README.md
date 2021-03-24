@@ -37,9 +37,8 @@ In this project, I used data provided by [Motivate](https://www.motivateco.com/)
 - Start Station (e.g., Broadway & Barry Ave)
 - End Station (e.g., Sedgwick St & North Ave)
 - User Type (Subscriber or Customer)
-#The Chicago and New York City files also have the following two columns:
-- Gender
-- Birth Year
+- Gender (only in Chicago and New York City)
+- Birth Year (only in Chicago and New York City)
 
 The original files are much larger and messier, and you don't need to download them, but they can be accessed here if you'd like to see them ([Chicago](https://www.divvybikes.com/system-data), [New York City](https://www.citibikenyc.com/system-data), [Washington](https://www.capitalbikeshare.com/system-data)). These files had more columns and they differed in format in many cases. Some data wrangling has been performed to condense these files to the above core six columns to make my analysis more straightforward.
 
@@ -50,7 +49,7 @@ The original files are much larger and messier, and you don't need to download t
 
 
 ### Credits
-- [link1](https://www.udacity.com/)
-- [link2](https://www.motivateco.com/)
-- [link3](https://www.capitalbikeshare.com/system-data)
-- [link4](https://www.citibikenyc.com/system-data)
+- [Udacity](https://www.udacity.com/)
+- [Motivate](https://www.motivateco.com/)
+- [capitalbikeshare](https://www.capitalbikeshare.com/system-data)
+- [citybikenyc](https://www.citibikenyc.com/system-data)
