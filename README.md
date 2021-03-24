@@ -1,5 +1,5 @@
 ### Date created
-I have created this project in 18 March 2021 and added README file in 24 March 2021.
+I have created this project in 18 March 2021 and add README file in 24 March 2021.
 
 ### Project Title
 Explore US Bike Share Data
@@ -7,10 +7,41 @@ Explore US Bike Share Data
 ### Description
 In this project, I used Python to explore data related to bike share systems for three major cities in the United States—Chicago, New York City, and Washington. I wrote a code to import the data and answer interesting questions about it by computing descriptive statistics. Besides, I did include a script that takes in raw input to create an interactive experience in the terminal to present these statistics.
 
+### Purpose of the project
+We have learned about bike share usage in Chicago, New York City, and Washington by computing a variety of descriptive statistics. In this project, I wrote code to provide the following information:
+1. Popular times of travel (i.e., occurs most often in the start time)
+- most common month
+- most common day of week
+- most common hour of day
+
+2. Popular stations and trip
+- most common start station
+- most common end station
+- most common trip from start to end (i.e., most frequent combination of start station and end station)
+
+3. Trip duration
+- total travel time
+- average travel time
+
+4. User info
+- counts of each user type
+- counts of each gender (only available for NYC and Chicago)
+- earliest, most recent, most common year of birth (only available for NYC and Chicago)
+
 ### Files used
-- chicago.csv
-- new_york_city.csv
-- washington.csv
+In this project, I used data provided by [Motivate](https://www.motivateco.com/), a bike share system provider for many major cities in the United States, to uncover bike share usage patterns. Randomly selected data for the first six months of 2017 are provided for all three cities. All three of the data files contain the same core six (6) columns:
+
+- Start Time (e.g., 2017-01-01 00:07:57)
+- End Time (e.g., 2017-01-01 00:20:53)
+- Trip Duration (in seconds - e.g., 776)
+- Start Station (e.g., Broadway & Barry Ave)
+- End Station (e.g., Sedgwick St & North Ave)
+- User Type (Subscriber or Customer)
+The Chicago and New York City files also have the following two columns:
+- Gender
+- Birth Year
+
+The original files are much larger and messier, and you don't need to download them, but they can be accessed here if you'd like to see them ([Chicago](https://www.divvybikes.com/system-data), [New York City](https://www.citibikenyc.com/system-data), [Washington](https://www.capitalbikeshare.com/system-data)). These files had more columns and they differed in format in many cases. Some data wrangling has been performed to condense these files to the above core six columns to make my analysis more straightforward.
 
 ### Software requirements
 - You should have Python 3, NumPy, pandas, and tabulate installed using Anaconda
@@ -19,7 +50,8 @@ In this project, I used Python to explore data related to bike share systems for
 
 
 ### Credits
-- [link1](https://stackoverflow.com/questions/15138973/how-to-get-the-number-of-the-most-frequent-value-in-a-column)
-- [link2](https://stackoverflow.com/questions/12021754/how-to-slice-a-pandas-data-frame-by-position)
-- [link3](https://towardsdatascience.com/how-to-filter-rows-of-a-pandas-dataframe-by-column-value-51996ea621f8)
-- [link4](https://wordpress.com/support/markdown-quick-reference/)
+- [link1](https://www.udacity.com/)
+- [link2](https://www.motivateco.com/)
+- [link3](https://stackoverflow.com/questions/12021754/how-to-slice-a-pandas-data-frame-by-position)
+- [link4](https://towardsdatascience.com/how-to-filter-rows-of-a-pandas-dataframe-by-column-value-51996ea621f8)
+- [link5](https://wordpress.com/support/markdown-quick-reference/)
